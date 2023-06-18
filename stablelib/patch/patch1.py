@@ -4,7 +4,7 @@ import requests
 import concurrent.futures
 from tqdm import tqdm
 from urllib.parse import urlparse
-from ..colored_print import cprint
+from ..color import cprint
 
 def clone_repo(url, cwd=None, directory=None, branch=None, commit_hash=None, recursive=False, quiet=False, batch=False):
     """
