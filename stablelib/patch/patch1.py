@@ -97,7 +97,7 @@ def checkout_repo(directory, reference, create=False, args="", quiet=False, batc
 
     return message
 
-def patch(url, dir, cwd, path=None, args=None, whitespace_fix=False, quiet=False):
+def patch_dir(url, dir, cwd, path=None, args=None, whitespace_fix=False, quiet=False):
     """
     Function to patch a repo with specified arguments.
     
