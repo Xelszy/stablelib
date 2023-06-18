@@ -3,7 +3,7 @@ import requests
 import subprocess
 from tqdm import tqdm
 import concurrent.futures
-from ..color import cprint
+from .color import cprint
 from urllib.parse import urlparse
 
 def patch_dir(url, dir, cwd, path=None, args=None, whitespace_fix=False, quiet=False):
